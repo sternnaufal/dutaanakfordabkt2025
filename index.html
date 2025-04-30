@@ -27,9 +27,10 @@
       padding-left: 15px;
       margin-bottom: 20px;
     }
-    .profile-card img {
-      height: 150px;
-      object-fit: cover;
+    .btn-custom {
+      margin: 10px;
+      padding: 10px 30px;
+      font-size: 18px;
     }
     footer {
       background: #1e88e5;
@@ -37,32 +38,9 @@
       padding: 20px 0;
       text-align: center;
     }
-    .nav-link {
-      color: white !important;
-    }
   </style>
 </head>
 <body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Duta Anak Bukittinggi</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
-          <li class="nav-item"><a class="nav-link" href="#timeline">Jadwal</a></li>
-          <li class="nav-item"><a class="nav-link" href="#finalists">Finalis</a></li>
-          <li class="nav-item"><a class="nav-link" href="#vote">Voting</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- Hero -->
   <section class="hero" id="home">
@@ -81,12 +59,15 @@
       <li><strong>Penyelenggara:</strong> Forum Anak Kota Bukittinggi</li>
       <li><strong>Peserta:</strong> Anak-anak SMP & SMA se-Kota Bukittinggi</li>
     </ul>
-    <p>
-      📎 <a href="#">Link Pendaftaran</a> |
-      📄 <a href="#">Juknis</a> |
-      🌿 <a href="#">Twibbon</a> |
-      📋 <a href="#">Syarat & Ketentuan</a>
-    </p>
+  </section>
+
+  <!-- Tombol Link -->
+  <section class="container text-center my-5">
+    <h2 class="section-title">Link & Akses</h2>
+    <a href="#" class="btn btn-primary btn-custom">📎 Pendaftaran</a>
+    <a href="#" class="btn btn-success btn-custom">📄 Juknis</a>
+    <a href="#" class="btn btn-info btn-custom">🌿 Twibbon</a>
+    <a href="#" class="btn btn-warning btn-custom">📋 Syarat & Ketentuan</a>
   </section>
 
   <!-- Timeline -->
@@ -111,7 +92,7 @@
     <h2 class="section-title">Profil Finalis</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
-        <div class="card profile-card">
+        <div class="card">
           <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Finalis">
           <div class="card-body">
             <h5 class="card-title">Ayu Rahma</h5>
